@@ -1,0 +1,85 @@
+<!-- by @factorcode -->
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Факториал | Биография</title>
+    <link rel="preload" href="image/background.webm" as="video" type="video/webm">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body oncontextmenu="return false;">
+
+    <div id="enter-screen">
+        <p>CLICK TO ENTER</p>
+    </div>
+
+    <video autoplay loop muted playsinline class="background-video" id="background-video">
+        <source src="image/background.webm" type="video/webm">
+        <source src="https://link.factorcode.ru/image/background.mp4" type="video/mp4">
+    </video>
+    <div class="background-effects">
+        <canvas id="particle-canvas"></canvas>
+    </div>
+
+    <div id="main-content">
+        <div class="container">
+            <header class="profile">
+                <img src="https://t.me/i/userpic/320/factorcode.jpg" alt="Фото профиля" class="profile-picture"
+                    id="telegram-avatar">
+                <h1 class="fade-in">факториал</h1>
+                <p class="subtitle fade-in">Разработчик | Веб-Дизайнер</p>
+            </header>
+
+            <main class="biography">
+                <section class="card fade-in">
+                    <h2>Заказы и разработка</h2>
+                    <ul class="service-list">
+                        <li><i class="fa-solid fa-palette"></i> Сайт-биография с красивыми стилями.</li>
+                        <li><i class="fa-solid fa-robot"></i> Telegram Бот под любую сложность.</li>
+                        <li><i class="fa-solid fa-gamepad"></i> Личный чит для PUBGM/Standoff.</li>
+                        <li><i class="fa-brands fa-whatsapp"></i> Подключаю вашего личного WhatsApp бота в течение
+                            часа.</li>
+                        <li><i class="fa-solid fa-server"></i> Дополнительно объясняю как подключать домены/хостинги.
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="card fade-in">
+                    <h2>Навыки</h2>
+                    <ul>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML & CSS</li>
+                        <li>APK Coding</li>
+                    </ul>
+                </section>
+
+                <section class="card fade-in">
+                    <h2>Проекты</h2>
+                    <p>• KMETEX | CONFIG</p>
+                    <p>• AIDE Pro [MODS]</p>
+                </section>
+            </main>
+
+            <footer class="social-links fade-in">
+                <a href="https://factorcode.t.me" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram Link</span>
+                </a>
+            </footer>
+        </div>
+    </div>
+
+    <audio id="start-sound" src="music/start.mp3" preload="auto"></audio>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
+
+<!-- by @factorcode -->
